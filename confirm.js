@@ -12,6 +12,7 @@ function confirmEnding(str, target) {
 }
 confirmEnding("Bastian", "n");
 
+//sort
 function getIndexToIns(arr1, num) {
   // Find my place in this sorted array.
   arr1.sort(function(a, b){return a - b});
@@ -22,6 +23,14 @@ function getIndexToIns(arr1, num) {
 }
 getIndexToIns([40, 60], 50);
 
+array
+//Array
+var fruits = ["Apple", "Banana", "Oranges"];
+var x = [];
+for(var i = 0; i < fruits.length; i++){
+ // x = fruits[i];
+ console.log(fruits[i]);
+}
 //How you will add function as a property in a JavaScript object?
 
 var Car = new Object();
@@ -31,4 +40,4 @@ Car.model = 2017;
 var car1 = function(){
   return Car.name;
 }
-console.log(car1());
+console.log(car1());master
