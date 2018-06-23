@@ -12,6 +12,7 @@ function confirmEnding(str, target) {
 }
 confirmEnding("Bastian", "n");
 
+//sort
 function getIndexToIns(arr1, num) {
   // Find my place in this sorted array.
   arr1.sort(function(a, b){return a - b});
@@ -21,3 +22,11 @@ function getIndexToIns(arr1, num) {
   return arr1.indexOf(arr1[i]);
 }
 getIndexToIns([40, 60], 50);
+
+//Array
+var fruits = ["Apple", "Banana", "Oranges"];
+var x = [];
+for(var i = 0; i < fruits.length; i++){
+ // x = fruits[i];
+ console.log(fruits[i]);
+}
