@@ -21,3 +21,14 @@ function getIndexToIns(arr1, num) {
   return arr1.indexOf(arr1[i]);
 }
 getIndexToIns([40, 60], 50);
+
+//How you will add function as a property in a JavaScript object?
+
+var Car = new Object();
+Car.name = "Lexus";
+Car.color = "Black";
+Car.model = 2017;
+var car1 = function(){
+  return Car.name;
+}
+console.log(car1());
