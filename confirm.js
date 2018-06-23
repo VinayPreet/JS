@@ -23,6 +23,7 @@ function getIndexToIns(arr1, num) {
 }
 getIndexToIns([40, 60], 50);
 
+array
 //Array
 var fruits = ["Apple", "Banana", "Oranges"];
 var x = [];
@@ -30,3 +31,13 @@ for(var i = 0; i < fruits.length; i++){
  // x = fruits[i];
  console.log(fruits[i]);
 }
+//How you will add function as a property in a JavaScript object?
+
+var Car = new Object();
+Car.name = "Lexus";
+Car.color = "Black";
+Car.model = 2017;
+var car1 = function(){
+  return Car.name;
+}
+console.log(car1());master
